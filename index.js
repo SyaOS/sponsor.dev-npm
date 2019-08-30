@@ -4,10 +4,10 @@ const { table } = require('table')
 const debug = require('debug')('sponsor.dev')
 
 module.exports = async () => {
-  const ci = Boolean(process.env.CI)
-  const disabled = Boolean(process.env.SPONSOR_DEV_DISABLED)
-
   try {
+    const ci = Boolean(process.env.CI)
+    const disabled = Boolean(process.env.SPONSOR_DEV_DISABLED)
+
     if (ci || disabled) {
       return debug('Sponsor.dev is disabled, exit.')
     }

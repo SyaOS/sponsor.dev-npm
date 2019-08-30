@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Sponsor.dev for npm.",
   "main": "index.js",
-  "bin": "index.js",
+  "bin": "bin.js",
   "scripts": {
     "install": "./bin.js",
     "test": "standard"
