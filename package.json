@@ -25,9 +25,6 @@
     "table": "^5.4.6"
   },
   "devDependencies": {
-    "mocha": "^6.2.0",
-    "nock": "^10.0.6",
-    "nyc": "^14.1.1",
     "standard": "^14.1.0"
   }
 }
